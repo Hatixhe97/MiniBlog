@@ -1,0 +1,35 @@
+.container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 18px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 202px;
+    margin-bottom: 20px;
+}
