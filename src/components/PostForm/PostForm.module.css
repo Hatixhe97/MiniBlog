@@ -33,3 +33,9 @@ textarea{
     width: 202px;
     margin-bottom: 20px;
 }
+
+button{
+    border-radius: 10px;
+    background-color: rgb(95,147,255);
+    border: 1px solid;
+}
