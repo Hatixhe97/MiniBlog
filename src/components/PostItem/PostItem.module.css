@@ -11,3 +11,30 @@ img{
     height: 300px;
     object-fit: cover;
 }
+
+.removebutton{
+
+}
+
+.removebutton {
+    background: transparent;
+    position: relative;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(197, 128, 128);
+    border-radius: 25px;
+    color: rgb(255,0,0);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+    height: 25px;
+}
+  
+
+  
+
+  

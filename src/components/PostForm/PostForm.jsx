@@ -5,14 +5,14 @@ const PostForm = (props) => {
 
   const [title,setTitle] = useState ('');
   const [description,setDescription] = useState ('');
-  const [data,setData] = useState ('');
+  const [date,setDate] = useState ('');
   const [imageLink,setImageLink] = useState ('');
 
   const addNewPost =()=>{
     const newPost={
       title,
       description,
-      data,
+      date,
       imageLink,
    
   };
@@ -21,7 +21,7 @@ const PostForm = (props) => {
 
   setTitle ('');
   setDescription('');
-  setData ('');
+  setDate ('');
   setImageLink ('');
 
 }
@@ -60,8 +60,8 @@ const PostForm = (props) => {
          <div className={styles.inputcontainer}>
            <label>Date</label>
            <input style={{width:202}} type='date'
-              value={data}
-              onChange={(event) => setData(event.target.value)}
+              value={date}
+              onChange={(event) => setDate(event.target.value)}
             />
          </div>
           
@@ -76,7 +76,7 @@ const PostForm = (props) => {
         </div>
 
         </form>
-        <button onClick={addNewPost}>Add Post</button>
+        <button className={styles.addpost} onClick={addNewPost}>Add Post</button>
       </div>
 
       <div className={styles.imgcontainer}>
