@@ -6,11 +6,17 @@ const PostItem = (props) => {
         <div className={styles.card}>
 
             <img src={props.imageLink} alt="" />
-            <h3>{props.title}</h3>
+
+            <div className={styles.title}>
+                <h3>{props.title}</h3>
+
+                <p>{props.date}</p>
+            </div>
+            
 
             <p>{props.description}</p>
 
-            <p>{props.date}</p>
+            
 
             <button className={styles.removebutton} onClick={() => props.removeBlog(props.index)}>Remove blog</button>
         </div>
