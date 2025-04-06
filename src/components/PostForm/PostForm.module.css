@@ -18,16 +18,16 @@ form{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 15px;
+    font-family: Copperplate, Papyrus, fantasy;
 }
 
 h1{
     text-align: center;
-    font-family: "Playwrite MX Guides", cursive;
     font-weight: 400;
-    font-style: normal;
+    font-family: Copperplate, Papyrus, fantasy;
     margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 input{
@@ -77,4 +77,5 @@ textarea{
     border: none;
     border-radius: 50px;
     padding: 20px;
+    margin-left: 10px;
 }

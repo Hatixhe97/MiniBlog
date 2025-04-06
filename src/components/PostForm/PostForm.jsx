@@ -35,7 +35,7 @@ const PostForm = (props) => {
       
 
      <div className={styles.container}>
-       <h1>Add The Last Grand Adventure</h1>
+       <h1>Add The Last Explore</h1>
 
 
        <form>
